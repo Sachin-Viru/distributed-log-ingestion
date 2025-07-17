@@ -59,10 +59,10 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /var/log/mail.log
-    - /var/log/dovecot.log
-    - /var/log/sogo/sogo.log
-    - /var/log/fuglu/fuglu_plugins.jsonl
+    - /var/log/apache.log
+    - /var/log/mysql/error.log
+    - /var/log/zabbix/zabbix_server.log
+    - /var/log/pods
 
 - type: container
   enabled: true
